@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+    left: 0;
+    width: 100%;
+    padding: var(--space2x) var(--space3x);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bleu-canard);
+  }
+  
+  .header__logo {
+    display: block;
+  }
+
+  .header__title {
+    color: var(--blanc);
+    font-family: "Jersey 25";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }

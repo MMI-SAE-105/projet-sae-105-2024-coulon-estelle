@@ -1,0 +1,102 @@
+.menu {
+  visibility: hidden;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--noir);
+  color: var(--vert);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space5x) var(--space3x) var(--space3x);
+  transform: translateX(100vw);
+  transition: all 0.3s ease-in-out;
+}
+.menu[aria-hidden="false"] {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.menu__link {
+  color: var(--vert);
+  text-decoration: none;
+  font-size: var(--fs-xl);
+  display: block;
+  border-bottom: 1px solid var(--vert);
+  margin-top: 50%;
+  font-family: "jersey 25"; 
+  font-size: 1.5em;
+}
+
+.menu__link--silent {
+  font-size: var(--fs-s);
+}
+
+.menu__item {
+  margin-bottom: var(--space3x);
+  text-align: center;
+  padding-bottom: var(--space1x);
+  border-bottom: 1px solid var(--vert);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu__social-network,
+.menu__terms {
+  display: flex;
+  gap: var(--space2x);
+  justify-content: end;
+  margin-bottom: var(--space2x);
+}
+
+.menu-btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+  content: "";
+  background: var(--vert);
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  border-radius: 2px;
+  left: 0;
+  z-index: 10;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+  top: -10px;
+}
+
+.menu-btn__bar::after {
+  top: 10px;
+}
+
+/* Technique pour transformer les 3 barres du bouton de menu en croix
+Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+  transform: rotate(135deg);
+  background: var(--vert);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+.menu__logo{
+  position: fixed;
+  top: 2%;
+  left: 20px;
+}

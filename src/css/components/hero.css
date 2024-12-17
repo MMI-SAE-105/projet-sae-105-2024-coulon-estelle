@@ -1,0 +1,122 @@
+  .hero {
+      padding: var(--space5x) var(--space3x) var(--space4x);
+    }
+    
+    .hero--home {
+      background-color: var(--primary);
+    }
+
+    .hero__img {
+      width: 393px;
+      height: 458px;
+      flex-shrink: 0;
+      background: linear-gradient(0deg, #93B993 0%, #93B993 100%), linear-gradient(0deg, #027371 0%, #027371 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+      background-blend-mode: screen, screen, normal;
+    }
+
+    .hero__title--home {
+      width: 179px;
+      height: 47px;
+      flex-shrink: 0;
+      color: #000;
+
+      /* header 1 */
+      font-family: "Jersey 25";
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    
+    .hero__chapo {
+      width: 184px;
+      height: 57px;
+      flex-shrink: 0;
+      color: #000;
+  text-align: center;
+
+  /* HEADER 2 */
+  font-family: "Jersey 20";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 26.4px */
+    }
+    
+  .hero__date {
+    width: 179px;
+  height: 47px;
+  flex-shrink: 0;
+  color: #000;
+
+  /* header 1 */
+  font-family: "Jersey 25";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .hero__adresse {
+    width: 140px;
+    color: #000;
+  text-align: center;
+
+  /* header 3 */
+  font-family: "Jersey 15";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 19.8px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  }
+
+  .section__body__chapo {
+    width: 393px;
+position: relative;
+  background: #EEFFF6;
+  text-align: center;
+  }
+
+  .section__body__btn {
+    width: 185px;
+  height: 40px;
+  flex-shrink: 0;
+background-color:var(--rouge);
+  margin-left: 100px;
+  border-radius: 25px;
+  }
+
+  .section__body__text{
+    width: 194px;
+    color: #000;
+    text-align: center;
+    margin-left: 100px;
+
+  /* Body 2 */
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  }
+
+  .hero__mail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+  
+  .hero__icon-mail {
+    display: block;
+    width: 28px;
+  }

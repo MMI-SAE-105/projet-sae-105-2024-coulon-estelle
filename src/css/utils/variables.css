@@ -1,0 +1,29 @@
+/* Collection 1 */
+:root {
+  /* Mode 1 */
+  /* color */
+  --beige: #b9af93;
+  --beige-clair: #efe6c7;
+  --moutarde: #be7111;
+  --noir: #000000;
+  --bordeaux: #4d0b0d;
+  --rouge: #730202;
+  --rouge-clair: #c82925;
+}
+/* typographie */
+:root {
+  /* Mode 1 */
+  /* string */
+  --font-fammily-krana-one: Krana one;
+  --font-fammily-nunito: Nunito;
+  --font-size-xs: 12px;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-xm: 18px;
+  --font-size-l: 24px;
+  --font-weight-bold: Bold;
+  --font-weight-italic: Italic;
+  --font-weight-light: Light;
+  --font-weight-regular: Regular;
+  --font-weight-extrabold: ExtraBold;
+}

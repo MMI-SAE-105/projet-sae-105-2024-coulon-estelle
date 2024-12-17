@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--rouge);
+    color: var(--white);
+    padding: var(--space3x);
+    font-size: var(--fs-s);
+  }
+  
+  .footer__copyright {
+    color: var(--gray-600);
+  }
+  .footer_titre {
+    color: black;
+    font-style: 2rem;
+    margin-bottom: 50px;
+    list-style: none;
+    width: 100px;
+    }
+    .footer_reseaux {
+      display: flex;
+      margin-left: 20px;
+    }
+    .footer_reseau {
+      margin-right: 20px;
+    }
+    
+    .footer_lien {
+      text-decoration: none;
+    }
