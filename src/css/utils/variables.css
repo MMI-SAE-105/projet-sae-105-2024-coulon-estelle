@@ -21,8 +21,11 @@
   --font-size-m: 16px;
   --font-size-xm: 18px;
   --font-size-l: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 36px;
   --font-weight-bold: Bold;
   --font-weight-italic: Italic;
+  --font-weight-light-italic: Light Italic;
   --font-weight-light: Light;
   --font-weight-regular: Regular;
   --font-weight-extrabold: ExtraBold;

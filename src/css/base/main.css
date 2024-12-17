@@ -14,8 +14,8 @@ body {
 
 h1,
 h2 {
-  font-weight: normal;
-  line-height: 1.1;
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-tight);
 }
 
 h1 {
@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  line-height: 1.4;
+  line-height: var(--line-height-loose);
 }
 
 input,
@@ -39,6 +39,10 @@ textarea {
   outline: none;
   padding: 0;
   cursor: pointer;
+}
+
+.section__subtitle {
+  
 }
 
 /* Pour enlever l'apparence par défaut des listes */
@@ -111,19 +115,17 @@ textarea {
   font-size: 1.5rem;
   text-align: center; 
 }
-.section__title{
+
+.section__title {
   position: relative;
+  z-index: 1;
+  background-color: var(--blanc);
+  padding: 10px;
 }
-.prog--affiche__date{
-  text-align: center;
-}
-.prog--affiche__heure{
-  text-align: center;
-}
-.prog--affiche__image{
-width: 50%;
-margin-left: 100px;
-}
-.prog--affiche__réal{
-text-align: center;
+
+
+
+.ImgHome {
+  width: 100%;
+  height: 100%;
 }

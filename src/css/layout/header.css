@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--bleu-canard);
+    background-color: var(--bordeaux);
   }
   
   .header__logo {
@@ -14,7 +14,7 @@
   }
 
   .header__title {
-    color: var(--blanc);
+    color: var(--beige-claire, #EFE6C7);
     font-family: "Jersey 25";
     font-size: 24px;
     font-style: normal;

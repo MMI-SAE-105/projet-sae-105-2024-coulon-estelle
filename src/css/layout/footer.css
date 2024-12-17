@@ -1,6 +1,6 @@
 .footer {
-    background-color: var(--rouge);
-    color: var(--white);
+    background-color: var(--moutarde);
+    color: var(--beige-clair);
     padding: var(--space3x);
     font-size: var(--fs-s);
   }
@@ -9,7 +9,8 @@
     color: var(--gray-600);
   }
   .footer_titre {
-    color: black;
+    margin: 0;
+    color: var(--beige-clair);
     font-style: 2rem;
     margin-bottom: 50px;
     list-style: none;
@@ -20,9 +21,31 @@
       margin-left: 20px;
     }
     .footer_reseau {
-      margin-right: 20px;
+      width: 26px;
+      height: 24.4px;
+      margin-right: 34px;
     }
-    
-    .footer_lien {
-      text-decoration: none;
+
+    .footer__logo {
+      width: 52px;
+      height: 52px;
+      flex-shrink: 0;
+    }
+
+    .footer_info {
+      width: 223px;
+      font-weight: Light Italic;
+      color: var(--beige-claire, #EFE6C7);
+      font-family: 'Nunito', sans-serif;
+      font-size: var(--fs-xm);
+      font-style: var(--font-weight-light-italic);
+      line-height: 160%; /* 28.8px */
+      margin-top: 33px;
+    }
+
+    .footer_mentions {
+      display: inline;
+      color: inherit;
+      text-decoration: underline;
+      white-space: nowrap;
     }
