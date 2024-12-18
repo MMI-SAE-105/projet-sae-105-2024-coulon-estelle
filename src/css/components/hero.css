@@ -92,6 +92,10 @@ background-color:var(--rouge);
   border-radius: 25px;
   }
 
+  .section__line {
+    color: var(--moutarde);
+  }
+
   .section__body__text{
     width: 194px;
     color: #000;

@@ -9,17 +9,19 @@
   --bordeaux: #4d0b0d;
   --rouge: #730202;
   --rouge-clair: #c82925;
+  --blanc: #FFFEEE;
 }
 /* typographie */
 :root {
   /* Mode 1 */
   /* string */
-  --font-fammily-krana-one: Krana one;
+  --font-fammily-krona-one: Krona one;
   --font-fammily-nunito: Nunito;
   --font-size-xs: 12px;
   --font-size-s: 14px;
   --font-size-m: 16px;
   --font-size-xm: 18px;
+  --font-size-xxm: 20px;
   --font-size-l: 24px;
   --font-size-xl: 32px;
   --font-size-xxl: 36px;

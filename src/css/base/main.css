@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: var(--font-sans-serif);
-  font-size: var(--fs-s);
+  font-family: var(--font-fammily-nunito);
+  font-size: var( --font-size-s);
   line-height: 1.6;
   background-color: var(--blanc);
   font-weight: 300;
@@ -14,6 +14,7 @@ body {
 
 h1,
 h2 {
+  font-family: var(--font-fammily-krana-one);
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-tight);
 }
@@ -39,10 +40,6 @@ textarea {
   outline: none;
   padding: 0;
   cursor: pointer;
-}
-
-.section__subtitle {
-  
 }
 
 /* Pour enlever l'apparence par défaut des listes */
@@ -123,9 +120,55 @@ textarea {
   padding: 10px;
 }
 
+.arrow-down {
+  color: var(--rouge);
+  display: flex;
+  
+}
 
+.arrow {
+  width: 300px;
+}
 
 .ImgHome {
   width: 100%;
   height: 100%;
 }
+
+.arrow-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  
+  position: relative;
+  /* Adjust this value to position the content next to the arrow */
+}
+
+.arrow-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust spacing between items */
+  height: 137px;
+}
+
+.arrow-img {
+  width: 80px; /* Adjust the size of the images */
+  height: auto;
+  margin-right: 10px; /* Space between image and text */
+}
+
+.arrow-title {
+  font-size: 1rem;
+  margin: 0 10px 0 0;
+  color: var(--noir); /* Space between title and text */
+}
+
+.arrow-text {
+  font-size: 0.875rem;
+  color: var(--noir);
+}
+.frise_title{
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+} 
