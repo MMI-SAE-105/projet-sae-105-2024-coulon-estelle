@@ -15,6 +15,8 @@
     margin-bottom: 50px;
     list-style: none;
     width: 100px;
+    font-weight:lighter;
+    font-style: italic;
     }
     .footer_reseaux {
       display: flex;
