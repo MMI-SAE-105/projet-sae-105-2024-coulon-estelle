@@ -1,0 +1,9 @@
+.section__description {
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--beige-clair);
+    margin-left: 20px;
+    margin-right: 20px;
+}

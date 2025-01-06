@@ -18,10 +18,10 @@
       width: 179px;
       height: 47px;
       flex-shrink: 0;
-      color: #000;
+      color: var(--blanc);
 
       /* header 1 */
-      font-family: "Jersey 25";
+      font-family: var(--font-fammily-krona-one);
       font-size: 36px;
       font-style: normal;
       font-weight: 400;
@@ -33,14 +33,14 @@
       height: 57px;
       flex-shrink: 0;
       color: #000;
-  text-align: center;
+    text-align: center;
 
-  /* HEADER 2 */
-  font-family: "Jersey 20";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110%; /* 26.4px */
+    /* HEADER 2 */
+    font-family: "Jersey 20";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 26.4px */
     }
     
   .hero__date {

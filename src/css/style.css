@@ -21,3 +21,5 @@
 /* Components */
 @import "components/menu.css";
 @import "components/hero.css";
+@import "components/home.css";
+@import "components/carousel.css";

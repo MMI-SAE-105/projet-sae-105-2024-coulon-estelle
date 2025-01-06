@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color: var(--noir);
+}
+
+a:hover{
+  color: var(--moutarde);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
 body {
   font-family: var(--font-fammily-nunito);
   font-size: var( --font-size-s);
@@ -20,15 +39,28 @@ h2 {
 }
 
 h1 {
-  font-size: var(--fs-4xl);
+  font-size: var(--font-size-l);
 }
 
 h2 {
-  font-size: var(--fs-2xl);
+  font-size: var(--font-size-xxm);
 }
 
 h3 {
-  line-height: var(--line-height-loose);
+  font-family: var(--font-fammily-nunito);
+  font-size: var(--font-size-m);
+}
+
+h4{
+  font-family: var(--font-fammily-nunito);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-light-italic);
+}
+
+p{
+  font-family: var(--font-fammily-nunito);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-light);
 }
 
 input,

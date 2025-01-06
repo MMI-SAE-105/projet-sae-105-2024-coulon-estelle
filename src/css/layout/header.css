@@ -11,13 +11,12 @@
   
   .header__logo {
     display: block;
+    margin: 20px;
   }
 
   .header__title {
     color: var(--beige-claire, #EFE6C7);
-    font-family: "Jersey 25";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
+    font-family: var(--font-fammily-krona-one);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-regular);
   }
