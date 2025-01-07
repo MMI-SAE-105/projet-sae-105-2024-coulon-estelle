@@ -31,19 +31,26 @@ body {
   font-weight: 300;
 }
 
-h1,
-h2 {
+
+h1 {
   font-family: var(--font-fammily-krana-one);
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-tight);
-}
-
-h1 {
   font-size: var(--font-size-l);
 }
 
 h2 {
+  font-family: var(--font-fammily-krana-one);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-tight);
   font-size: var(--font-size-xxm);
+}
+
+h5 {
+  font-family: var(--font-fammily-krana-one);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-tight);
+  font-size: var(--font-size-xl);
 }
 
 h3 {
@@ -55,12 +62,14 @@ h4{
   font-family: var(--font-fammily-nunito);
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-light-italic);
+  margin: 20px;
 }
 
 p{
   font-family: var(--font-fammily-nunito);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-light);
+  margin: 20px;
 }
 
 input,
@@ -146,10 +155,9 @@ textarea {
 }
 
 .section__title {
-  position: relative;
   z-index: 1;
   background-color: var(--blanc);
-  padding: 10px;
+  padding: 20px;
 }
 .section__subtitle{
   text-align: center;

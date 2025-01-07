@@ -7,3 +7,28 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.section__title{
+    color: var(--noir);
+    font-family: var(--font-fammily-krona-one);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-regular);
+}
+
+.section__subtitle{
+    color: var(--noir);
+    font-family: var(--font-fammily-krona-one);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-regular);
+}
+
+.section__video{
+    width: 90%;
+    margin: 20px;
+}
+
+.section__image{
+    margin:20px;
+    width: 90%;
+}
+

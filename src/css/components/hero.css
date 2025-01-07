@@ -33,14 +33,11 @@
       height: 57px;
       flex-shrink: 0;
       color: #000;
-    text-align: center;
-
-    /* HEADER 2 */
-    font-family: "Jersey 20";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%; /* 26.4px */
+      text-align: center;
+      font-family: var(--font-fammily-krona-one);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: var(--font-weight-regular);
     }
     
   .hero__date {
@@ -50,7 +47,7 @@
   color: #000;
 
   /* header 1 */
-  font-family: "Jersey 25";
+  font-family: var(--font-fammily-krona-one);
   font-size: 36px;
   font-style: normal;
   font-weight: 400;

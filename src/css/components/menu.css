@@ -17,25 +17,6 @@
   visibility: visible;
 }
 
-.menu__linkTitle {
-  text-align: center;
-  color: var(--beige, #B9AF93);
-  text-decoration: none;
-  font-size: var(--fs-xl);
-  display: block;
-  font-family: var(--font-fammily-krona-one);
-  font-weight: var(--font-weight-regular);
-}
-
-.menu__linkSubTitle {
-  align-items: center;
-  color: var(--beige, #B9AF93);
-  text-decoration: none;
-  font-size: var(--fs-xl);
-  font-family: var(--font-fammily-krona-one);
-  font-weight: var(--font-weight-regular);
-}
-
 
 .menu__link--silent {
   font-size: var(--fs-s);
@@ -103,56 +84,37 @@ Ne pas oublier d'ajouter une transition plus haut pour l'animation */
   left: 20px;
 }
 
-.menu__item1 {
-  margin-left: 146.5px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
+
+.list-unstyled{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  position: relative;
+  top: 5%;
+  gap: 20px;
 }
 
-.menu__item2 {
-  margin-left: 146.5px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
+.menu__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.menu__item3 {
-  margin-left: 120px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
+.menu__autreprojet{
+  display: flex;
+  justify-content: center;
+  color: var(--moutarde);
 }
 
-.menu__item4 {
-  margin-left: 80px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
+.menu__hr{
+  width: 60%;
 }
 
-.menu__item5 {
-  margin-left: 110px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
+.menu__text{
+  line-height: 5%;
+  color: var(--beige);
+  
 }
 
-.menu__item6 {
-  margin-left: 120px;
-  margin-bottom: var(--space3x);
-  text-align: center;
-  padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--vert);
-  width: 30%;
-}
