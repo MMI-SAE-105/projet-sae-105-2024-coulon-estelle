@@ -84,7 +84,7 @@ textarea {
 }
 
 /* Pour enlever l'apparence par défaut des listes */
-.list-unstyled {
+li{
   list-style: none;
   margin: 0;
   padding: 0;
