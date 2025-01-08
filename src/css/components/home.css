@@ -60,3 +60,11 @@ li.section__item {
     gap: 20px;
     padding: 10px;
 }
+
+.glossaire__title {
+    margin: 20px;
+}
+
+.section__body__chapo {
+    margin: 20px;
+}
