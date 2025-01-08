@@ -1,4 +1,4 @@
-  .hero {
+  /*.hero {
       padding: var(--space5x) var(--space3x) var(--space4x);
     }
     
@@ -20,7 +20,7 @@
       flex-shrink: 0;
       color: var(--noir);
 
-      /* header 1 */
+      /* header 1 
       font-family: var(--font-fammily-krona-one);
       font-size: 36px;
       font-style: normal;
@@ -46,7 +46,7 @@
   flex-shrink: 0;
   color: #000;
 
-  /* header 1 */
+  /* header 1 *
   font-family: var(--font-fammily-krona-one);
   font-size: 36px;
   font-style: normal;
@@ -59,12 +59,12 @@
     color: #000;
   text-align: center;
 
-  /* header 3 */
+  /* header 3 *
   font-family: "Jersey 15";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 110%; /* 19.8px */
+  line-height: 110%; /* 19.8px *
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
@@ -99,7 +99,7 @@ background-color:var(--rouge);
     text-align: center;
     margin-left: 100px;
 
-  /* Body 2 */
+  /* Body 2 *
   font-family: Nunito;
   font-size: 14px;
   font-style: normal;
@@ -120,4 +120,22 @@ background-color:var(--rouge);
   .hero__icon-mail {
     display: block;
     width: 28px;
-  }
+  }*/
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__title {
+  font-family: var(--font-fammily-krona-one);
+  font-size: var(--font-size-xxl);
+}
