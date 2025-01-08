@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : COULON
+- PRÉNOM : Estelle
+- GROUPE : A1
+- URL du site : https://ocularia.estelle-coulon.fr/fr/
+- URL FIGMA : https://www.figma.com/design/gSooTfkR2M6oOcvgbPLCsg/Ocularia?node-id=76-922&t=3oMfTsE30NpxFdUn-1
