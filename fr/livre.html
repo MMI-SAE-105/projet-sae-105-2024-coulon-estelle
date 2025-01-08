@@ -41,15 +41,24 @@
         />
       </a>
       <h1 class="header__title">Ocularia</h1>
-      <button
-      class="header__menu-btn menu-btn"
-      aria-label="menu"
-      aria-expanded="false"
-      aria-controls="mainNav"
-    >
-      <span class="menu-btn__bar" aria-hidden="true"></span>
-    </button>
-    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+      <div class="header__end">
+        <button class="header__langage langage">
+          <span>
+            <a href="/en/livre.html">
+              <img class="langage-img" src="/assets/img/icon/icon_language.png" alt="">
+            </a>
+          </span>
+        </button>
+
+        <button
+          class="header__menu-btn menu-btn"
+          aria-label="menu"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          >
+          <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
       
         <img class="menu__logo"
         src="/assets/favicon/favicon-32x32.png"
@@ -94,7 +103,8 @@
         </a>
 
       </ul>
-    </nav>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="hero">

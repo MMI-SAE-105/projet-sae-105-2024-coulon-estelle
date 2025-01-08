@@ -20,3 +20,14 @@
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-regular);
   }
+
+  .header__end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.langage-img {
+  width: 50%;
+}
